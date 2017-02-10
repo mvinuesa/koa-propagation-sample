@@ -1,0 +1,41 @@
+{
+  "name": "koa-propagation-sample",
+  "description": "koa 2 sample to propagate custom headers",
+  "version": "1.1.0",
+  "main": "example/index.js",
+  "license": "ISC",
+  "author": "Mario Vinuesa",
+  "dependencies": {
+    "command-line-args": "^4.0.1",
+    "koa": "^2.0.0",
+    "koa-devstack-sleuth": "^1.0.2",
+    "koa-morgan": "^1.0.1",
+    "koa-router": "^7.1.0",
+    "npm": "^4.1.2",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  },
+  "scripts": {
+    "start": "node --harmony example/ -- --port 3000"
+  },
+  "keywords": [
+    "koa",
+    "middleware",
+    "sleuth",
+    "propagation"
+  ],
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/serenity-devstack-samples/koa-propagation-sample.git"
+  },
+  "homepage": "https://github.com/mvinuesa/koa-propagation-sample",
+  "maintainers": [
+    {
+      "name": "Mario Vinuesa",
+      "email": "mvinuesa@extern.isban.com"
+    }
+  ]
+}
